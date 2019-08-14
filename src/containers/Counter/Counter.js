@@ -30,7 +30,7 @@ class Counter extends Component {
               key={storeResult.id}
               onClick={() => this.props.onDeleteResult(storeResult.id)}
             >
-              {storeResult.value}
+              <h2>{storeResult.value}</h2>
             </li>
           ))}
         </ul>
